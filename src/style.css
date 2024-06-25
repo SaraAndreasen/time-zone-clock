@@ -9,10 +9,12 @@ body {
 }
 
 .clock-container {
+  max-width: 600px;
   background-color: #ffd900;
   border-radius: 10px;
   padding: 10px;
   display: block;
+  margin: 0 auto;
 }
 
 footer {

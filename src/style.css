@@ -5,16 +5,65 @@ body {
     rgb(254, 255, 165) 0%,
     rgb(255, 232, 182) 90%
   );
-  text-align: center;
 }
 
 .clock-container {
   max-width: 600px;
-  background-color: #ffd900;
-  border-radius: 10px;
+  background-color: wheat;
+  border-radius: 15px;
   padding: 10px;
   display: block;
   margin: 0 auto;
+  font-weight: normal;
+  font-style: normal;
+  box-shadow: 12px 12px 2px 1px rgba(225, 156, 53, 0.2);
+}
+
+h1 {
+  font-family: "Bungee Hairline", sans-serif;
+  font-size: 48px;
+  text-align: center;
+}
+
+select {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  font-family: sans-serif;
+  border: 0;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.city {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+  padding: 20px 0;
+  border-bottom: 1px dashed grey;
+}
+
+.city:last-child {
+  border-bottom: none;
+}
+
+h2 {
+  margin: 0 0 5px;
+  text-align: left;
+}
+
+.date {
+  opacity: 0.5;
+  text-align: left;
+}
+.time {
+  font-size: 48px;
+  font-weight: bold;
+}
+
+.time small {
+  font-size: 24px;
+  vertical-align: middle;
 }
 
 footer {

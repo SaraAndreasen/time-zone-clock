@@ -19,34 +19,28 @@
       <div class="clock-container">
         <h1>World Clock</h1>
         <form action="">
-          <select name="cities" id="cities">
+          <select name="cities" id="city-selector">
             <option value="">Select a city..</option>
-            <option value="paris">Paris 🇫🇷</option>
-            <option value="tokyo">Tokyo 🇯🇵</option>
-            <option value="sydney">Sydney 🇦🇺</option>
+            <option value="Europe/Paris">Paris 🇫🇷</option>
+            <option value="Asia/Tokyo">Tokyo 🇯🇵</option>
+            <option value="Australia/Sydney">Sydney 🇦🇺</option>
           </select>
         </form>
-
-        <div class="city" id="los-angeles">
-          <div>
-            <h2>Los Angeles</h2>
-            <div class="date"></div>
+        <div id="cities">
+          <div class="city" id="los-angeles">
+            <div>
+              <h2>Los Angeles</h2>
+              <div class="date"></div>
+            </div>
+            <div class="time"><small></small></div>
           </div>
-          <div class="time"><small></small></div>
-        </div>
-        <div class="city" id="oslo">
-          <div>
-            <h2>Oslo</h2>
-            <div class="date"></div>
+          <div class="city" id="oslo">
+            <div>
+              <h2>Oslo</h2>
+              <div class="date"></div>
+            </div>
+            <div class="time"><small></small></div>
           </div>
-          <div class="time"><small></small></div>
-        </div>
-        <div class="city">
-          <div>
-            <h2>Paris</h2>
-            <div class="date">1 Jan 2024</div>
-          </div>
-          <div class="time">1:02:30 <small>AM</small></div>
         </div>
       </div>
     </div>

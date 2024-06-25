@@ -6,18 +6,41 @@
     <link rel="stylesheet" href="src/style.css" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.30.1/moment.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.45/moment-timezone-with-data-1970-2030.min.js"></script>
-    <title>Time Zone Clock</title>
+    <title>World Clock</title>
   </head>
   <body>
     <div class="clock-body">
-      <form action="">
-        <select name="cities" id="cities">
-          <option value="">Select a city</option>
-          <option value="paris">Paris 🇫🇷</option>
-          <option value="tokyo">Tokyo 🇯🇵</option>
-          <option value="sydney">Sydney 🇦🇺</option>
-        </select>
-      </form>
+      <div class="clock-container">
+        <h1>World Clock</h1>
+        <form action="">
+          <select name="cities" id="cities">
+            <option value="">Select a city</option>
+            <option value="paris">Paris 🇫🇷</option>
+            <option value="tokyo">Tokyo 🇯🇵</option>
+            <option value="sydney">Sydney 🇦🇺</option>
+          </select>
+        </form>
+      </div>
+
+      <footer>
+        <div class="footer-links">
+          <p>
+            This project was coded by
+            <a href="https://github.com/SaraAndreasen" target="_blank"
+              >Sara Andreasen</a
+            >, is
+            <a
+              href="https://github.com/SaraAndreasen/time-zone-clock"
+              target="_blank"
+              >open-sourced on Github</a
+            >
+            and
+            <a href="https://world-clock-10p2.onrender.com" target="_blank"
+              >hosted on Render</a
+            >
+          </p>
+        </div>
+      </footer>
     </div>
     <script src="src/main.js"></script>
   </body>

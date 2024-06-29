@@ -47,6 +47,12 @@ select {
   border-bottom: none;
 }
 
+.return-button {
+  text-decoration: underline;
+  color: #000;
+  opacity: 0.5;
+}
+
 h2 {
   margin: 0 0 5px;
   text-align: left;
